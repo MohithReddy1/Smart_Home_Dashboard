@@ -43,11 +43,49 @@ function light2() {
 
 }
 
+function light3() {
+    let lightswitch3 = document.getElementById("lightswitch3");
+    let lightimg3 = document.getElementById("lightimg3");
+    let lighton3 = document.getElementById("lighton3");
+
+    if(lightswitch3.checked === true){
+        lightimg3.style.display = "none";
+        lighton3.style.display = "block";
+    }
+    else{
+        lightimg3.style.display = "block";
+        lighton3.style.display = "none";
+    }
+
+}
+
+function bedlamp1() {
+    let bedlampswitch1 = document.getElementById("bedlampswitch1");
+    let bedlampimg1 = document.getElementById("bedlampimg1");
+    let bedlampon1 = document.getElementById("bedlampon1");
+
+    if(bedlampswitch1.checked === true){
+        bedlampimg1.style.display = "none";
+        bedlampon1.style.display = "block";
+    }
+    else{
+        bedlampimg1.style.display = "block";
+        bedlampon1.style.display = "none";
+    }
+
+}
+
 let fanswitch1 = document.getElementById("fanswitch1");
 let fan1 = document.getElementById("fan1");
 
 let fanswitch2 = document.getElementById("fanswitch2");
 let fan2 = document.getElementById("fan2");
+
+let fanswitch3 = document.getElementById("fanswitch3");
+let fan3 = document.getElementById("fan3");
+
+let fanswitch4 = document.getElementById("fanswitch4");
+let fan4 = document.getElementById("fan4");
 
 function fanrotate1() {
     if(fanswitch1.checked === true){
@@ -70,18 +108,23 @@ function fanrotate2() {
 
 }
 
-function bedlamp1() {
-    let bedlampswitch1 = document.getElementById("bedlampswitch1");
-    let bedlampimg1 = document.getElementById("bedlampimg1");
-    let bedlampon1 = document.getElementById("bedlampon1");
-
-    if(bedlampswitch1.checked === true){
-        bedlampimg1.style.display = "none";
-        bedlampon1.style.display = "block";
+function fanrotate3() {
+    if(fanswitch3.checked === true){
+        fan3.className += " rotate";
     }
     else{
-        bedlampimg1.style.display = "block";
-        bedlampon1.style.display = "none";
+        fan3.className -= " rotate";
+    }
+
+}
+
+function fanrotate4() {
+
+    if(fanswitch4.checked === true){
+        fan4.className += " rotate";
+    }
+    else{
+        fan4.className -= " rotate";
     }
 
 }
@@ -107,5 +150,29 @@ function fanrange2(){
     }
     else if(fanswitch2.checked === false){
         range2.value = 0;
+    }
+}
+
+let range3 = document.getElementById("range3");
+range3.value = 0;
+
+function fanrange3(){
+    if(fanswitch3.checked === true){
+        range3.value = 1;
+    }
+    else if(fanswitch3.checked === false){
+        range3.value = 0;
+    }
+}
+
+let range4 = document.getElementById("range4");
+range4.value = 0;
+
+function fanrange4(){
+    if(fanswitch4.checked === true){
+        range4.value = 1;
+    }
+    else if(fanswitch4.checked === false){
+        range4.value = 0;
     }
 }

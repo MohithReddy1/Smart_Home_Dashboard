@@ -205,19 +205,19 @@ body{
 }
 
 .box{
-    width: 180px;
-    height: 190px;
+    width: 190px;
+    height: 185px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 10px gray;
     padding: 10px 20px;
     position: relative;
-    margin: 10px;
+    margin: 20px;
 }
 
 .box p{
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding-left: 5px;
 }
@@ -227,7 +227,7 @@ body{
     height: 35px;
     position: absolute;
     top:27px;
-    left: 160px;
+    left: 175px;
 }
 
 .box .light{
@@ -236,15 +236,15 @@ body{
     font-size: 35px;
     position: absolute;
     top:29px;
-    left: 155px;
+    left: 170px;
 }
 
-.box img.air_conditioner{
+/* .box img.air_conditioner{
     font-size: 40px;
     position: absolute;
     top:30px;
     left: 160px;
-}
+} */
 
 /* toggle */
 
@@ -253,7 +253,7 @@ body{
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin: 25px 30px 0px 60px;
+    margin: 30px 30px 0px 65px;
   }
   
   /* Hide default HTML checkbox */
@@ -324,18 +324,7 @@ body{
     }
   }  
 
-#range1{
+#range1, #range2, #range3, #range4{
   margin: 28px;
-}
-
-#range2{
-  margin: 28px;
-}
-
-#rangeset1{
-  position: absolute;
-  top:170px;
-  left: 190px;
-  font-size: 20px;
 }
   

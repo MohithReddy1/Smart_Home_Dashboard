@@ -53,7 +53,7 @@
             <div class="row1">
 
                 <div class="box">
-                    <p>Light1</p>
+                    <p>Living Room</p>
                     <img src="images/light.svg" alt="light" id="lightimg1">
                     <i class="fas fa-lightbulb-on light" id="lighton1" style="width: 25px; height: 25px; color: #3976f6;"></i>
                     <label class="switch">
@@ -63,7 +63,7 @@
                 </div>
                 
                 <div class="box">
-                    <p>Light2</p>
+                    <p>Kitchen Room</p>
                     <img src="images/light.svg" alt="light" id="lightimg2">
                     <i class="fas fa-lightbulb-on light" id="lighton2" style="width: 25px; height: 25px; color: #3976f6;"></i>
                     <label class="switch">
@@ -73,28 +73,14 @@
                 </div>
 
                 <div class="box">
-                    <p>Fan1</p>
-                    <img src="images/fan.svg" alt="light" id="fan1">
+                    <p>Bed Room</p>
+                    <img src="images/light.svg" alt="light" id="lightimg3">
+                    <i class="fas fa-lightbulb-on light" id="lighton3" style="width: 25px; height: 25px; color: #3976f6;"></i>
                     <label class="switch">
-                        <input type="checkbox" id="fanswitch1" onchange="fanrotate1(); fanrange1()">
+                        <input type="checkbox" id="lightswitch3"  onchange="light3()" >
                         <span class="slider round"></span>
                     </label>
-                    <input type="range" min="0" max="5" id="range1">
                 </div>
-
-                <div class="box">
-                    <p>Fan2</p>
-                    <img src="images/fan.svg" alt="light"  id="fan2">
-                    <label class="switch">
-                        <input type="checkbox" id="fanswitch2" onchange="fanrotate2(); fanrange2()">
-                        <span class="slider round"></span>
-                    </label>
-                    <input type="range" min="0" max="5" id="range2">
-                    
-                </div>
-            </div>
-
-            <div class="row2">
 
                 <div class="box">
                     <p>Bed Lamp</p>
@@ -105,32 +91,47 @@
                         <span class="slider round"></span>
                     </label>
                 </div>
+            </div>
 
+            <div class="row2">
                 <div class="box">
-                    <p>Speakers</p>
-                    <img src="images/speaker.svg" alt="light">
+                    <p>Living Room</p>
+                    <img src="images/fan.svg" alt="light" id="fan1">
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="fanswitch1" onchange="fanrotate1(); fanrange1()">
                         <span class="slider round"></span>
                     </label>
+                    <input type="range" min="0" max="5" id="range1">
                 </div>
 
                 <div class="box">
-                    <p>AC</p>
-                    <img class= "air_conditioner" src="images/air-conditioner.svg" alt="light">
+                    <p>Kitchen Room</p>
+                    <img src="images/fan.svg" alt="light"  id="fan2">
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="fanswitch2" onchange="fanrotate2(); fanrange2()">
                         <span class="slider round"></span>
                     </label>
+                    <input type="range" min="0" max="5" id="range2">
                 </div>
 
                 <div class="box">
-                    <p>TV</p>
-                    <img src="images/tv.svg" alt="light">
+                    <p>Bed Room</p>
+                    <img src="images/fan.svg" alt="light" id="fan3">
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="fanswitch3" onchange="fanrotate3(); fanrange3()">
                         <span class="slider round"></span>
                     </label>
+                    <input type="range" min="0" max="5" id="range3">
+                </div>
+
+                <div class="box">
+                    <p>Dinning Room</p>
+                    <img src="images/fan.svg" alt="light" id="fan4">
+                    <label class="switch">
+                        <input type="checkbox" id="fanswitch4" onchange="fanrotate4(); fanrange4()">
+                        <span class="slider round"></span>
+                    </label>
+                    <input type="range" min="0" max="5" id="range4">
                 </div>
 
             </div>
