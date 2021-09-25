@@ -239,13 +239,6 @@ body{
     left: 170px;
 }
 
-/* .box img.air_conditioner{
-    font-size: 40px;
-    position: absolute;
-    top:30px;
-    left: 160px;
-} */
-
 /* toggle */
 
 .switch {
@@ -253,7 +246,7 @@ body{
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin: 30px 30px 0px 65px;
+    margin: 35px 30px 0px 65px;
   }
   
   /* Hide default HTML checkbox */
@@ -324,7 +317,4 @@ body{
     }
   }  
 
-#range1, #range2, #range3, #range4{
-  margin: 28px;
-}
   
