@@ -71,6 +71,7 @@ body{
 .cloud{
   font-size: 30px;
   color: #feb103;
+  margin-left: 10px;
 }
 
 .cloudy{
@@ -83,7 +84,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .temp p{
@@ -93,10 +94,11 @@ body{
 
 .temp strong{
   font-size: 20px;
+  margin-left: 15px;
 }
 
-.indoor{
-  margin-right: 50px;
+.Temperature{
+  margin-right: 60px;
 }
 
 .box2{
